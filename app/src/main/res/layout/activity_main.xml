@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC33"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="96dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/digitalent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="279dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="299dp"
+        android:text="Game of Fifteen Puzzle"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="324dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/puzzle" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="461dp"
+        android:background="@drawable/button_color"
+        android:enabled="true"
+        android:onClick="Start"
+        android:text="START"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="74dp"-->
+<!--        android:layout_marginTop="299dp"-->
+<!--        android:text="Username"-->
+<!--        android:typeface="sans"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="18sp"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="74dp"-->
+<!--        android:layout_marginTop="379dp"-->
+<!--        android:text="Password"-->
+<!--        android:typeface="sans"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="18sp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="12"-->
+<!--        android:layout_marginLeft="74dp"-->
+<!--        android:layout_marginTop="329dp"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Input Your Username" />-->
+
+
+</RelativeLayout>
