@@ -9,4 +9,4 @@ The details of this apps:
 
 <b> Demo of Game-Apps: Fifteen Puzzle </b> 
 
-![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/89477206/199474985-8e67c0f7-815e-4ca8-8db9-16cf91a47d21.gif)
+![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/89477206/199475957-b539d707-d446-4d7d-a9c3-603f895a4b18.gif)
